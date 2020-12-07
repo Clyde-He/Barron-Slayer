@@ -1,5 +1,5 @@
 ---
-date: 2018-08-24 12:00:00
+Update Date: 2018-08-24
 ---
 
 # Barron Slayer 1.3.9
