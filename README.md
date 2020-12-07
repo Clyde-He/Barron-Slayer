@@ -1,8 +1,9 @@
 ---
 Update Date: 2018-08-24
+Version: 1.3.9
 ---
 
-# Barron Slayer 1.3.9
+# Barron Slayer
 
 ## What is Barron Slayer?
 
@@ -27,3 +28,7 @@ Future development:
 ## Contact Me
 
 Reach me here: specos@outlook.com
+
+## License
+
+Barron Slayer is released under the MIT license. See LICENSE for details.
