@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2482C641DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2482C621DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt */; };
+		C2482C651DB7A7EF0064CDD9 /* Barron 3500 Unlisted Explainations.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2482C631DB7A7EF0064CDD9 /* Barron 3500 Unlisted Explainations.txt */; };
+		C255DC201D56EE070089569B /* About Barron 3500.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC1F1D56EE070089569B /* About Barron 3500.txt */; };
+		C255DC241D56F1600089569B /* About This Version.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC231D56F1600089569B /* About This Version.txt */; };
+		C255DC261D56F1680089569B /* Contact Us.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC251D56F1680089569B /* Contact Us.txt */; };
+		C255DC281D56F1700089569B /* Open Source.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC271D56F1700089569B /* Open Source.txt */; };
+		C26FFFDA212F494B008EC65D /* Model Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26FFFD9212F494B008EC65D /* Model Identifier.swift */; };
+		C274962E1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt in Resources */ = {isa = PBXBuildFile; fileRef = C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */; };
+		C274962F1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt in Resources */ = {isa = PBXBuildFile; fileRef = C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */; };
+		C29D332D1DA7E6760052216B /* SF-Compact-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33211DA7E6760052216B /* SF-Compact-Text-Bold.otf */; };
+		C29D332E1DA7E6760052216B /* SF-Compact-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33221DA7E6760052216B /* SF-Compact-Text-BoldItalic.otf */; };
+		C29D332F1DA7E6760052216B /* SF-Compact-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33231DA7E6760052216B /* SF-Compact-Text-Heavy.otf */; };
+		C29D33301DA7E6760052216B /* SF-Compact-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33241DA7E6760052216B /* SF-Compact-Text-HeavyItalic.otf */; };
+		C29D33311DA7E6760052216B /* SF-Compact-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33251DA7E6760052216B /* SF-Compact-Text-Light.otf */; };
+		C29D33321DA7E6760052216B /* SF-Compact-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33261DA7E6760052216B /* SF-Compact-Text-LightItalic.otf */; };
+		C29D33331DA7E6760052216B /* SF-Compact-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33271DA7E6760052216B /* SF-Compact-Text-Medium.otf */; };
+		C29D33341DA7E6760052216B /* SF-Compact-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33281DA7E6760052216B /* SF-Compact-Text-MediumItalic.otf */; };
+		C29D33351DA7E6760052216B /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33291DA7E6760052216B /* SF-Compact-Text-Regular.otf */; };
+		C29D33361DA7E6760052216B /* SF-Compact-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D332A1DA7E6760052216B /* SF-Compact-Text-RegularItalic.otf */; };
+		C29D33371DA7E6760052216B /* SF-Compact-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D332B1DA7E6760052216B /* SF-Compact-Text-Semibold.otf */; };
+		C29D33381DA7E6760052216B /* SF-Compact-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D332C1DA7E6760052216B /* SF-Compact-Text-SemiboldItalic.otf */; };
+		C2B0AAEE1D4F303700BD8157 /* FindWordsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0AAED1D4F303700BD8157 /* FindWordsScreenViewController.swift */; };
+		C2F447A01D4F29AD00EC7459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4479F1D4F29AD00EC7459 /* AppDelegate.swift */; };
+		C2F447A51D4F29AD00EC7459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F447A31D4F29AD00EC7459 /* Main.storyboard */; };
+		C2F447AA1D4F29AD00EC7459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F447A91D4F29AD00EC7459 /* Assets.xcassets */; };
+		C2F447AD1D4F29AD00EC7459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F447AB1D4F29AD00EC7459 /* LaunchScreen.storyboard */; };
+		C2F447B81D4F29AE00EC7459 /* Barron_SlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F447B71D4F29AE00EC7459 /* Barron_SlayerTests.swift */; };
+		C2F447C31D4F29AE00EC7459 /* Barron_SlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F447C21D4F29AE00EC7459 /* Barron_SlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F447B41D4F29AE00EC7459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F447941D4F29AD00EC7459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F4479B1D4F29AD00EC7459;
+			remoteInfo = "Barron Slayer";
+		};
+		C2F447BF1D4F29AE00EC7459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F447941D4F29AD00EC7459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F4479B1D4F29AD00EC7459;
+			remoteInfo = "Barron Slayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2482C621DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Classes.txt"; sourceTree = "<group>"; };
+		C2482C631DB7A7EF0064CDD9 /* Barron 3500 Unlisted Explainations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Explainations.txt"; sourceTree = "<group>"; };
+		C255DC1F1D56EE070089569B /* About Barron 3500.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "About Barron 3500.txt"; sourceTree = "<group>"; };
+		C255DC231D56F1600089569B /* About This Version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "About This Version.txt"; sourceTree = "<group>"; };
+		C255DC251D56F1680089569B /* Contact Us.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Contact Us.txt"; sourceTree = "<group>"; };
+		C255DC271D56F1700089569B /* Open Source.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Open Source.txt"; sourceTree = "<group>"; };
+		C26FFFD9212F494B008EC65D /* Model Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model Identifier.swift"; sourceTree = "<group>"; };
+		C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Words.txt"; sourceTree = "<group>"; };
+		C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Translations.txt"; sourceTree = "<group>"; };
+		C29D33211DA7E6760052216B /* SF-Compact-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Bold.otf"; sourceTree = "<group>"; };
+		C29D33221DA7E6760052216B /* SF-Compact-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		C29D33231DA7E6760052216B /* SF-Compact-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Heavy.otf"; sourceTree = "<group>"; };
+		C29D33241DA7E6760052216B /* SF-Compact-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		C29D33251DA7E6760052216B /* SF-Compact-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Light.otf"; sourceTree = "<group>"; };
+		C29D33261DA7E6760052216B /* SF-Compact-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		C29D33271DA7E6760052216B /* SF-Compact-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Medium.otf"; sourceTree = "<group>"; };
+		C29D33281DA7E6760052216B /* SF-Compact-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		C29D33291DA7E6760052216B /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
+		C29D332A1DA7E6760052216B /* SF-Compact-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		C29D332B1DA7E6760052216B /* SF-Compact-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Semibold.otf"; sourceTree = "<group>"; };
+		C29D332C1DA7E6760052216B /* SF-Compact-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		C2B0AAED1D4F303700BD8157 /* FindWordsScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindWordsScreenViewController.swift; sourceTree = SOURCE_ROOT; };
+		C2F4479C1D4F29AD00EC7459 /* Barron Slayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barron Slayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F4479F1D4F29AD00EC7459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F447A41D4F29AD00EC7459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F447A91D4F29AD00EC7459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F447AC1D4F29AD00EC7459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F447AE1D4F29AD00EC7459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F447B31D4F29AE00EC7459 /* Barron SlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barron SlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F447B71D4F29AE00EC7459 /* Barron_SlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barron_SlayerTests.swift; sourceTree = "<group>"; };
+		C2F447B91D4F29AE00EC7459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F447BE1D4F29AE00EC7459 /* Barron SlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barron SlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F447C21D4F29AE00EC7459 /* Barron_SlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barron_SlayerUITests.swift; sourceTree = "<group>"; };
+		C2F447C41D4F29AE00EC7459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F447991D4F29AD00EC7459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447B01D4F29AE00EC7459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447BB1D4F29AE00EC7459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29D33201DA7E6760052216B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C29D33211DA7E6760052216B /* SF-Compact-Text-Bold.otf */,
+				C29D33221DA7E6760052216B /* SF-Compact-Text-BoldItalic.otf */,
+				C29D33231DA7E6760052216B /* SF-Compact-Text-Heavy.otf */,
+				C29D33241DA7E6760052216B /* SF-Compact-Text-HeavyItalic.otf */,
+				C29D33251DA7E6760052216B /* SF-Compact-Text-Light.otf */,
+				C29D33261DA7E6760052216B /* SF-Compact-Text-LightItalic.otf */,
+				C29D33271DA7E6760052216B /* SF-Compact-Text-Medium.otf */,
+				C29D33281DA7E6760052216B /* SF-Compact-Text-MediumItalic.otf */,
+				C29D33291DA7E6760052216B /* SF-Compact-Text-Regular.otf */,
+				C29D332A1DA7E6760052216B /* SF-Compact-Text-RegularItalic.otf */,
+				C29D332B1DA7E6760052216B /* SF-Compact-Text-Semibold.otf */,
+				C29D332C1DA7E6760052216B /* SF-Compact-Text-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C2F447931D4F29AD00EC7459 = {
+			isa = PBXGroup;
+			children = (
+				C2F4479E1D4F29AD00EC7459 /* Barron Slayer */,
+				C2F447B61D4F29AE00EC7459 /* Barron SlayerTests */,
+				C2F447C11D4F29AE00EC7459 /* Barron SlayerUITests */,
+				C2F4479D1D4F29AD00EC7459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F4479D1D4F29AD00EC7459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F4479C1D4F29AD00EC7459 /* Barron Slayer.app */,
+				C2F447B31D4F29AE00EC7459 /* Barron SlayerTests.xctest */,
+				C2F447BE1D4F29AE00EC7459 /* Barron SlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F4479E1D4F29AD00EC7459 /* Barron Slayer */ = {
+			isa = PBXGroup;
+			children = (
+				C29D33201DA7E6760052216B /* Fonts */,
+				C2F4479F1D4F29AD00EC7459 /* AppDelegate.swift */,
+				C26FFFD9212F494B008EC65D /* Model Identifier.swift */,
+				C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */,
+				C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */,
+				C2482C621DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt */,
+				C2482C631DB7A7EF0064CDD9 /* Barron 3500 Unlisted Explainations.txt */,
+				C255DC1F1D56EE070089569B /* About Barron 3500.txt */,
+				C255DC231D56F1600089569B /* About This Version.txt */,
+				C255DC251D56F1680089569B /* Contact Us.txt */,
+				C255DC271D56F1700089569B /* Open Source.txt */,
+				C2F447A31D4F29AD00EC7459 /* Main.storyboard */,
+				C2B0AAED1D4F303700BD8157 /* FindWordsScreenViewController.swift */,
+				C2F447A91D4F29AD00EC7459 /* Assets.xcassets */,
+				C2F447AB1D4F29AD00EC7459 /* LaunchScreen.storyboard */,
+				C2F447AE1D4F29AD00EC7459 /* Info.plist */,
+			);
+			path = "Barron Slayer";
+			sourceTree = "<group>";
+		};
+		C2F447B61D4F29AE00EC7459 /* Barron SlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447B71D4F29AE00EC7459 /* Barron_SlayerTests.swift */,
+				C2F447B91D4F29AE00EC7459 /* Info.plist */,
+			);
+			path = "Barron SlayerTests";
+			sourceTree = "<group>";
+		};
+		C2F447C11D4F29AE00EC7459 /* Barron SlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F447C21D4F29AE00EC7459 /* Barron_SlayerUITests.swift */,
+				C2F447C41D4F29AE00EC7459 /* Info.plist */,
+			);
+			path = "Barron SlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F4479B1D4F29AD00EC7459 /* Barron Slayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F447C71D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron Slayer" */;
+			buildPhases = (
+				C2F447981D4F29AD00EC7459 /* Sources */,
+				C2F447991D4F29AD00EC7459 /* Frameworks */,
+				C2F4479A1D4F29AD00EC7459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barron Slayer";
+			productName = "Barron Slayer";
+			productReference = C2F4479C1D4F29AD00EC7459 /* Barron Slayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F447B21D4F29AE00EC7459 /* Barron SlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F447CA1D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron SlayerTests" */;
+			buildPhases = (
+				C2F447AF1D4F29AE00EC7459 /* Sources */,
+				C2F447B01D4F29AE00EC7459 /* Frameworks */,
+				C2F447B11D4F29AE00EC7459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F447B51D4F29AE00EC7459 /* PBXTargetDependency */,
+			);
+			name = "Barron SlayerTests";
+			productName = "Barron SlayerTests";
+			productReference = C2F447B31D4F29AE00EC7459 /* Barron SlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F447BD1D4F29AE00EC7459 /* Barron SlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F447CD1D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron SlayerUITests" */;
+			buildPhases = (
+				C2F447BA1D4F29AE00EC7459 /* Sources */,
+				C2F447BB1D4F29AE00EC7459 /* Frameworks */,
+				C2F447BC1D4F29AE00EC7459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F447C01D4F29AE00EC7459 /* PBXTargetDependency */,
+			);
+			name = "Barron SlayerUITests";
+			productName = "Barron SlayerUITests";
+			productReference = C2F447BE1D4F29AE00EC7459 /* Barron SlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F447941D4F29AD00EC7459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Specos Studios";
+				TargetAttributes = {
+					C2F4479B1D4F29AD00EC7459 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JVURYNLSX8;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+					};
+					C2F447B21D4F29AE00EC7459 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JVURYNLSX8;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F4479B1D4F29AD00EC7459;
+					};
+					C2F447BD1D4F29AE00EC7459 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JVURYNLSX8;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F4479B1D4F29AD00EC7459;
+					};
+				};
+			};
+			buildConfigurationList = C2F447971D4F29AD00EC7459 /* Build configuration list for PBXProject "Barron Slayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F447931D4F29AD00EC7459;
+			productRefGroup = C2F4479D1D4F29AD00EC7459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F4479B1D4F29AD00EC7459 /* Barron Slayer */,
+				C2F447B21D4F29AE00EC7459 /* Barron SlayerTests */,
+				C2F447BD1D4F29AE00EC7459 /* Barron SlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F4479A1D4F29AD00EC7459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29D33351DA7E6760052216B /* SF-Compact-Text-Regular.otf in Resources */,
+				C29D332D1DA7E6760052216B /* SF-Compact-Text-Bold.otf in Resources */,
+				C255DC261D56F1680089569B /* Contact Us.txt in Resources */,
+				C2F447AD1D4F29AD00EC7459 /* LaunchScreen.storyboard in Resources */,
+				C29D33381DA7E6760052216B /* SF-Compact-Text-SemiboldItalic.otf in Resources */,
+				C2F447AA1D4F29AD00EC7459 /* Assets.xcassets in Resources */,
+				C29D33311DA7E6760052216B /* SF-Compact-Text-Light.otf in Resources */,
+				C255DC241D56F1600089569B /* About This Version.txt in Resources */,
+				C2482C641DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt in Resources */,
+				C255DC201D56EE070089569B /* About Barron 3500.txt in Resources */,
+				C274962F1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt in Resources */,
+				C29D33341DA7E6760052216B /* SF-Compact-Text-MediumItalic.otf in Resources */,
+				C29D33331DA7E6760052216B /* SF-Compact-Text-Medium.otf in Resources */,
+				C29D33361DA7E6760052216B /* SF-Compact-Text-RegularItalic.otf in Resources */,
+				C29D33301DA7E6760052216B /* SF-Compact-Text-HeavyItalic.otf in Resources */,
+				C255DC281D56F1700089569B /* Open Source.txt in Resources */,
+				C29D33371DA7E6760052216B /* SF-Compact-Text-Semibold.otf in Resources */,
+				C2F447A51D4F29AD00EC7459 /* Main.storyboard in Resources */,
+				C2482C651DB7A7EF0064CDD9 /* Barron 3500 Unlisted Explainations.txt in Resources */,
+				C29D33321DA7E6760052216B /* SF-Compact-Text-LightItalic.otf in Resources */,
+				C274962E1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt in Resources */,
+				C29D332E1DA7E6760052216B /* SF-Compact-Text-BoldItalic.otf in Resources */,
+				C29D332F1DA7E6760052216B /* SF-Compact-Text-Heavy.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447B11D4F29AE00EC7459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447BC1D4F29AE00EC7459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F447981D4F29AD00EC7459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26FFFDA212F494B008EC65D /* Model Identifier.swift in Sources */,
+				C2B0AAEE1D4F303700BD8157 /* FindWordsScreenViewController.swift in Sources */,
+				C2F447A01D4F29AD00EC7459 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447AF1D4F29AE00EC7459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F447B81D4F29AE00EC7459 /* Barron_SlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F447BA1D4F29AE00EC7459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F447C31D4F29AE00EC7459 /* Barron_SlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F447B51D4F29AE00EC7459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F4479B1D4F29AD00EC7459 /* Barron Slayer */;
+			targetProxy = C2F447B41D4F29AE00EC7459 /* PBXContainerItemProxy */;
+		};
+		C2F447C01D4F29AE00EC7459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F4479B1D4F29AD00EC7459 /* Barron Slayer */;
+			targetProxy = C2F447BF1D4F29AE00EC7459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F447A31D4F29AD00EC7459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F447A41D4F29AD00EC7459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F447AB1D4F29AD00EC7459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F447AC1D4F29AD00EC7459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F447C51D4F29AE00EC7459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "af3a153e-6d9c-4303-94f2-fb116a86d0c8";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C2F447C61D4F29AE00EC7459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "af3a153e-6d9c-4303-94f2-fb116a86d0c8";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F447C81D4F29AE00EC7459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				INFOPLIST_FILE = "Barron Slayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2F447C91D4F29AE00EC7459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				INFOPLIST_FILE = "Barron Slayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C2F447CB1D4F29AE00EC7459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				INFOPLIST_FILE = "Barron SlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barron Slayer.app/Barron Slayer";
+			};
+			name = Debug;
+		};
+		C2F447CC1D4F29AE00EC7459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				INFOPLIST_FILE = "Barron SlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barron Slayer.app/Barron Slayer";
+			};
+			name = Release;
+		};
+		C2F447CE1D4F29AE00EC7459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				INFOPLIST_FILE = "Barron SlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Barron Slayer";
+			};
+			name = Debug;
+		};
+		C2F447CF1D4F29AE00EC7459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JVURYNLSX8;
+				INFOPLIST_FILE = "Barron SlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Barron Slayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F447971D4F29AD00EC7459 /* Build configuration list for PBXProject "Barron Slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F447C51D4F29AE00EC7459 /* Debug */,
+				C2F447C61D4F29AE00EC7459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F447C71D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron Slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F447C81D4F29AE00EC7459 /* Debug */,
+				C2F447C91D4F29AE00EC7459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F447CA1D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron SlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F447CB1D4F29AE00EC7459 /* Debug */,
+				C2F447CC1D4F29AE00EC7459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F447CD1D4F29AE00EC7459 /* Build configuration list for PBXNativeTarget "Barron SlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F447CE1D4F29AE00EC7459 /* Debug */,
+				C2F447CF1D4F29AE00EC7459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F447941D4F29AD00EC7459 /* Project object */;
+}
