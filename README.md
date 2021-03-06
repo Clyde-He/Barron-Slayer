@@ -27,7 +27,7 @@ Future development:
 
 ## Contact Me
 
-Reach me here: specos@outlook.com
+Reach me here: hi@specos.design
 
 ## License
 
