@@ -206,6 +206,8 @@ class FindWordsScreenViewController: UIViewController {
     var clearActivation = false
     var spesificMeaningActivation = false
     
+    var isFullScreenDevice = false
+    
     var keyboardKeyTouchedActication = false
     var findWordsButtonTouchedActivation = false
     var moreButtonTouchedActivation = false
@@ -375,7 +377,7 @@ class FindWordsScreenViewController: UIViewController {
             {
                 UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                    if self.isFullScreenDevice {
                             
                             
                             self.wordsListBackgroundView.bounds.size.height -= 269
@@ -418,7 +420,7 @@ class FindWordsScreenViewController: UIViewController {
                             self.searchTextLabel.frame.origin.y += 2
                         }
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             self.findWordsButtonContentView.bounds.size.width = self.view.bounds.size.width - 32
                             self.findWordsButtonContentView.frame.origin.x = 16
                             self.findWordsButtonContentView.frame.origin.y -= 269
@@ -448,7 +450,7 @@ class FindWordsScreenViewController: UIViewController {
                         self.searchIconImageView.frame.origin.x = 0
                         self.searchIconImageView.alpha = 1
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                         
                             self.findWordsButtonBackgroundView.bounds.size.width = self.view.bounds.size.width - 32
                             self.findWordsButtonBackgroundView.frame.origin.x = 16
@@ -468,7 +470,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             
                             self.moreButtonBackgroundView.frame.origin.y -= 269
                             self.moreButtonContentView.frame.origin.y -= 269
@@ -492,7 +494,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             
                             self.moreButtonBackgroundView.frame.origin.y = self.view.bounds.size.height - 34 - 54
                             self.moreButtonContentView.frame.origin.y = self.view.bounds.size.height - 34 - 54
@@ -523,7 +525,7 @@ class FindWordsScreenViewController: UIViewController {
                             self.searchTextLabel.frame.origin.y += 2
                         }
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             
                             self.findWordsButtonContentView.bounds.size.width = (self.view.bounds.size.width - 48) / 2
                             self.findWordsButtonContentView.frame.origin.x = 16
@@ -563,7 +565,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0.1, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             
                             self.moreButtonContentView.frame.origin.x = 32 + self.findWordsButtonContentView.bounds.size.width
                             self.moreButtonBackgroundView.frame.origin.x = 32 + self.findWordsButtonContentView.bounds.size.width
@@ -581,7 +583,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             
                             self.wordsListBackgroundView.bounds.size.height = self.view.bounds.size.height - 148
                             self.wordsListBackgroundView.frame.origin.y = 44
@@ -712,7 +714,7 @@ class FindWordsScreenViewController: UIViewController {
                         self.aboutTextLabel.frame.origin.x += 4
                         self.aboutTextLabel.frame.origin.y += 2
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             self.moreButtonBackgroundView.bounds.size.height = self.view.bounds.size.height - 78
                             self.moreButtonBackgroundView.bounds.size.width = self.view.bounds.size.width - 32
                             self.moreButtonBackgroundView.frame.origin.x = 16
@@ -849,7 +851,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             self.moreButtonBackgroundView.bounds.size.height = 54
                             self.moreButtonBackgroundView.bounds.size.width = (self.view.bounds.size.width - 48) / 2
                             self.moreButtonBackgroundView.frame.origin.x = 32 + self.moreButtonBackgroundView.bounds.size.width
@@ -875,7 +877,7 @@ class FindWordsScreenViewController: UIViewController {
             
                 UIView.animate(withDuration: 0.4, delay: 0.05, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             self.findWordsButtonBackgroundView.frame.origin.x = 16
                         }
                         else {
@@ -888,7 +890,7 @@ class FindWordsScreenViewController: UIViewController {
                 UIView.animate(withDuration: 0.4, delay: 0.1, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations:
                     {
                         
-                        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+                        if self.isFullScreenDevice {
                             self.wordsListBackgroundView.frame.origin.y = 44
                         }
                         else {
@@ -2272,8 +2274,12 @@ class FindWordsScreenViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+
+        if self.view.bounds.size.height / self.view.bounds.size.width > 1.8 {
+            isFullScreenDevice = true
+        }
         
-        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+        if self.isFullScreenDevice {
             self.isStatusBarHidden = false
             self.setNeedsStatusBarAppearanceUpdate()
         }
@@ -2466,7 +2472,7 @@ class FindWordsScreenViewController: UIViewController {
         
         self.backgroundRoundView.addSubview(wordsListBackgroundView)
 
-        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+        if self.isFullScreenDevice {
             wordsListBackgroundView.bounds.size.height = self.view.bounds.size.height - 148
             wordsListBackgroundView.bounds.size.width = self.view.bounds.size.width - 32
             wordsListBackgroundView.frame.origin.x = 16
@@ -2620,7 +2626,7 @@ class FindWordsScreenViewController: UIViewController {
                 wordsScrollViewQuickAccessButton.addTarget(self, action: #selector(FindWordsScreenViewController.wordsScrollViewQuickAccessButtonDidTouchUpOutside(_:)), for: .touchUpOutside)
             }
         
-        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+        if self.isFullScreenDevice {
         
             self.backgroundRoundView.addSubview(findWordsButtonBackgroundView)
             findWordsButtonBackgroundView.bounds.size.height = 54
@@ -2771,7 +2777,7 @@ class FindWordsScreenViewController: UIViewController {
             aboutContentScrollView.showsVerticalScrollIndicator = false
             aboutContentScrollView.alpha = 0
         
-        if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+        if self.isFullScreenDevice {
         
         self.backgroundRoundView.addSubview(keyboardBackgroundView)
         keyboardBackgroundView.bounds.size.height = 287
@@ -2858,7 +2864,7 @@ class FindWordsScreenViewController: UIViewController {
                 keybordKey.addTarget(self, action: #selector(FindWordsScreenViewController.keyboardKeyDidTouchUpOutside(_:)), for: .touchUpOutside)
             }
         
-            if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+            if self.isFullScreenDevice {
                 
                 keyboardBackgroundView.addSubview(clearButtonBackgroundView)
                 clearButtonBackgroundView.bounds.size.height = 54
@@ -2913,7 +2919,7 @@ class FindWordsScreenViewController: UIViewController {
                 clearButton.addTarget(self, action: #selector(FindWordsScreenViewController.clearButtonDidTouchUpInside), for: .touchUpInside)
                 clearButton.addTarget(self, action: #selector(FindWordsScreenViewController.clearButtonDidTouchUpOutside), for: .touchUpOutside)
         
-            if (UIDevice.current.modelName == "iPhone X") || (UIDevice.current.modelName == "Simulator") {
+            if self.isFullScreenDevice {
                 
                 keyboardBackgroundView.addSubview(deleteButtonBackgroundView)
                 deleteButtonBackgroundView.bounds.size.height = 54

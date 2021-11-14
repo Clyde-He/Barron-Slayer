@@ -13,7 +13,6 @@
 		C255DC241D56F1600089569B /* About This Version.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC231D56F1600089569B /* About This Version.txt */; };
 		C255DC261D56F1680089569B /* Contact Us.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC251D56F1680089569B /* Contact Us.txt */; };
 		C255DC281D56F1700089569B /* Open Source.txt in Resources */ = {isa = PBXBuildFile; fileRef = C255DC271D56F1700089569B /* Open Source.txt */; };
-		C26FFFDA212F494B008EC65D /* Model Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26FFFD9212F494B008EC65D /* Model Identifier.swift */; };
 		C274962E1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt in Resources */ = {isa = PBXBuildFile; fileRef = C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */; };
 		C274962F1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt in Resources */ = {isa = PBXBuildFile; fileRef = C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */; };
 		C29D332D1DA7E6760052216B /* SF-Compact-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29D33211DA7E6760052216B /* SF-Compact-Text-Bold.otf */; };
@@ -61,7 +60,6 @@
 		C255DC231D56F1600089569B /* About This Version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "About This Version.txt"; sourceTree = "<group>"; };
 		C255DC251D56F1680089569B /* Contact Us.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Contact Us.txt"; sourceTree = "<group>"; };
 		C255DC271D56F1700089569B /* Open Source.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Open Source.txt"; sourceTree = "<group>"; };
-		C26FFFD9212F494B008EC65D /* Model Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model Identifier.swift"; sourceTree = "<group>"; };
 		C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Words.txt"; sourceTree = "<group>"; };
 		C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Barron 3500 Unlisted Translations.txt"; sourceTree = "<group>"; };
 		C29D33211DA7E6760052216B /* SF-Compact-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Bold.otf"; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			children = (
 				C29D33201DA7E6760052216B /* Fonts */,
 				C2F4479F1D4F29AD00EC7459 /* AppDelegate.swift */,
-				C26FFFD9212F494B008EC65D /* Model Identifier.swift */,
 				C274962C1DAF95BF00759914 /* Barron 3500 Unlisted Words.txt */,
 				C274962D1DAF95BF00759914 /* Barron 3500 Unlisted Translations.txt */,
 				C2482C621DB7A7EF0064CDD9 /* Barron 3500 Unlisted Classes.txt */,
@@ -264,7 +261,7 @@
 				TargetAttributes = {
 					C2F4479B1D4F29AD00EC7459 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = JVURYNLSX8;
+						DevelopmentTeam = CH75XA8LVR;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -356,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26FFFDA212F494B008EC65D /* Model Identifier.swift in Sources */,
 				C2B0AAEE1D4F303700BD8157 /* FindWordsScreenViewController.swift in Sources */,
 				C2F447A01D4F29AD00EC7459 /* AppDelegate.swift in Sources */,
 			);
@@ -535,11 +531,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = JVURYNLSX8;
+				DEVELOPMENT_TEAM = CH75XA8LVR;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Barron Slayer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -557,11 +554,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhao He (JVURYNLSX8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = JVURYNLSX8;
+				DEVELOPMENT_TEAM = CH75XA8LVR;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Barron Slayer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Specos.Barron-Slayer";

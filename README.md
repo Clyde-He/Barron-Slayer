@@ -1,6 +1,6 @@
 ---
-Update Date: 2018-08-24
-Version: 1.3.9
+Update Date: 2021-11-13
+Version: 1.3.9.1
 ---
 
 # Barron Slayer
@@ -13,7 +13,13 @@ Version: 1.3.9
 
 “Barron 3500” has always been known as “the Bible of GRE Vocabulary”. Lots of Chinese students are distracted by dozens of Webster dictionary and ignore that “Barron 3500” is the only authorized GRE vocabulary for the test which can be found in the China mainland. “Barron 3500” elucidates the best of GRE core vocabulary and their explanations. Actually, the essential value of “Barron 3500” has been discovered by several Chinese testers way before GRE mechanic test and now “Barron 3500” is one of the most important vocabulary lists for both SAT (including Redesigned SAT) test and GRE test.
 
-## About This Version
+## Update Log
+
+### 1.3.9.1
+
+• Updated for newer iPhone Models.
+
+### 1.3.9
 
 It has been quite a while guys! But we are back! In this 1.3.9 new version, we've updated something including:
 - Now Barron Slayer supports iPhone X.
