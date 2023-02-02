@@ -17,7 +17,7 @@ Version: 1.3.9.1
 
 ### 1.3.9.1
 
-• Updated for newer iPhone Models.
+- Updated for newer iPhone Models.
 
 ### 1.3.9
 
