@@ -21,15 +21,11 @@ Version: 1.3.9.1
 
 ### 1.3.9
 
-It has been quite a while guys! But we are back! In this 1.3.9 new version, we've updated something including:
+In this 1.3.9 new version, we've updated something including:
 - Now Barron Slayer supports iPhone X.
 - Update the code to Swift 4.0.
 - Removed Meng To's Spring Animation Library. Big thanks to Meng To, his amazing code, and animation library. Check Spring at here: https://github.com/MengTo/Spring.
 - Stability increment and minor bugs fixes.
-
-Future development:
-
-- Barron Slayer 1.4 will mainly focusing on UI/UX redesign, animation readjustment, stability improvements and quality control. See you in the future!
 
 ## Contact Me
 
